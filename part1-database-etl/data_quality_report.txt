@@ -1,0 +1,21 @@
+FLEXIMART DATA QUALITY REPORT
+Generated on: 2025-12-30 16:26:22.659102
+
+CUSTOMERS DATA
+Records read: 27
+Duplicates removed: 1
+Missing values handled: 5
+Records loaded: 20
+------------------------------
+PRODUCTS DATA
+Records read: 20
+Duplicates removed: 0
+Missing values handled: 3
+Records loaded: 17
+------------------------------
+SALES DATA
+Records read: 42
+Duplicates removed: 1
+Missing values handled: 5
+Records loaded: 35
+------------------------------
