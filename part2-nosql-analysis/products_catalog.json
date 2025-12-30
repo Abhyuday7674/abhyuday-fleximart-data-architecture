@@ -1,0 +1,466 @@
+[
+  {
+    "product_id": "ELEC001",
+    "name": "Samsung Galaxy S21 Ultra",
+    "category": "Electronics",
+    "subcategory": "Smartphones",
+    "price": 79999.00,
+    "stock": 150,
+    "specifications": {
+      "brand": "Samsung",
+      "ram": "12GB",
+      "storage": "256GB",
+      "screen_size": "6.8 inches",
+      "processor": "Exynos 2100",
+      "battery": "5000mAh",
+      "camera": "108MP + 12MP + 10MP"
+    },
+    "reviews": [
+      {
+        "user_id": "U001",
+        "username": "TechGuru",
+        "rating": 5,
+        "comment": "Excellent phone with amazing camera quality!",
+        "date": "2024-01-15"
+      },
+      {
+        "user_id": "U012",
+        "username": "MobileUser",
+        "rating": 4,
+        "comment": "Great performance but a bit pricey.",
+        "date": "2024-02-10"
+      },
+      {
+        "user_id": "U023",
+        "username": "PhotoEnthusiast",
+        "rating": 5,
+        "comment": "Best camera phone I've ever used!",
+        "date": "2024-03-05"
+      }
+    ],
+    "tags": ["flagship", "5G", "android", "photography"],
+    "warranty_months": 12,
+    "created_at": "2023-12-01T10:00:00Z",
+    "updated_at": "2024-03-20T14:30:00Z"
+  },
+  {
+    "product_id": "ELEC002",
+    "name": "Apple MacBook Pro 14-inch",
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "price": 189999.00,
+    "stock": 45,
+    "specifications": {
+      "brand": "Apple",
+      "processor": "M2 Pro",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "screen_size": "14 inches",
+      "graphics": "Integrated GPU",
+      "weight": "1.6 kg"
+    },
+    "reviews": [
+      {
+        "user_id": "U005",
+        "username": "DevPro",
+        "rating": 5,
+        "comment": "Perfect for development work. Battery life is incredible!",
+        "date": "2024-01-20"
+      },
+      {
+        "user_id": "U018",
+        "username": "Designer123",
+        "rating": 5,
+        "comment": "Handles heavy design software smoothly.",
+        "date": "2024-02-15"
+      }
+    ],
+    "tags": ["laptop", "macOS", "professional", "M2"],
+    "warranty_months": 12,
+    "created_at": "2023-11-15T09:00:00Z",
+    "updated_at": "2024-03-18T11:20:00Z"
+  },
+  {
+    "product_id": "ELEC003",
+    "name": "Sony WH-1000XM5 Headphones",
+    "category": "Electronics",
+    "subcategory": "Audio",
+    "price": 29990.00,
+    "stock": 200,
+    "specifications": {
+      "brand": "Sony",
+      "type": "Over-ear",
+      "connectivity": "Bluetooth 5.2",
+      "noise_cancellation": "Active",
+      "battery_life": "30 hours",
+      "weight": "250g"
+    },
+    "reviews": [
+      {
+        "user_id": "U007",
+        "username": "MusicLover",
+        "rating": 5,
+        "comment": "Best noise cancellation in the market!",
+        "date": "2024-01-25"
+      },
+      {
+        "user_id": "U014",
+        "username": "Audiophile",
+        "rating": 4,
+        "comment": "Great sound quality, very comfortable for long use.",
+        "date": "2024-02-20"
+      },
+      {
+        "user_id": "U029",
+        "username": "Traveler",
+        "rating": 5,
+        "comment": "Perfect for flights and commutes!",
+        "date": "2024-03-10"
+      }
+    ],
+    "tags": ["headphones", "wireless", "noise-cancelling", "premium"],
+    "warranty_months": 24,
+    "created_at": "2023-10-20T08:00:00Z",
+    "updated_at": "2024-03-22T16:45:00Z"
+  },
+  {
+    "product_id": "ELEC004",
+    "name": "Dell 27-inch 4K Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "price": 32999.00,
+    "stock": 60,
+    "specifications": {
+      "brand": "Dell",
+      "screen_size": "27 inches",
+      "resolution": "3840x2160 (4K)",
+      "refresh_rate": "60Hz",
+      "panel_type": "IPS",
+      "connectivity": "HDMI, DisplayPort, USB-C"
+    },
+    "reviews": [
+      {
+        "user_id": "U003",
+        "username": "GraphicDesigner",
+        "rating": 5,
+        "comment": "Colors are accurate and vibrant. Perfect for design work.",
+        "date": "2024-02-01"
+      },
+      {
+        "user_id": "U021",
+        "username": "Gamer99",
+        "rating": 3,
+        "comment": "Good for work but only 60Hz, not ideal for gaming.",
+        "date": "2024-03-01"
+      }
+    ],
+    "tags": ["monitor", "4K", "professional", "IPS"],
+    "warranty_months": 36,
+    "created_at": "2023-11-10T10:30:00Z",
+    "updated_at": "2024-03-15T09:15:00Z"
+  },
+  {
+    "product_id": "ELEC005",
+    "name": "OnePlus Nord CE 3",
+    "category": "Electronics",
+    "subcategory": "Smartphones",
+    "price": 26999.00,
+    "stock": 180,
+    "specifications": {
+      "brand": "OnePlus",
+      "ram": "8GB",
+      "storage": "128GB",
+      "screen_size": "6.7 inches",
+      "processor": "Snapdragon 782G",
+      "battery": "5000mAh",
+      "camera": "50MP + 8MP + 2MP"
+    },
+    "reviews": [
+      {
+        "user_id": "U010",
+        "username": "BudgetBuyer",
+        "rating": 4,
+        "comment": "Great value for money! Fast charging is amazing.",
+        "date": "2024-02-10"
+      },
+      {
+        "user_id": "U025",
+        "username": "StudentTech",
+        "rating": 4,
+        "comment": "Perfect mid-range phone for students.",
+        "date": "2024-03-12"
+      }
+    ],
+    "tags": ["smartphone", "mid-range", "5G", "android", "fast-charging"],
+    "warranty_months": 12,
+    "created_at": "2024-01-05T11:00:00Z",
+    "updated_at": "2024-03-25T13:30:00Z"
+  },
+  {
+    "product_id": "ELEC006",
+    "name": "Samsung 55-inch QLED TV",
+    "category": "Electronics",
+    "subcategory": "Televisions",
+    "price": 64999.00,
+    "stock": 35,
+    "specifications": {
+      "brand": "Samsung",
+      "screen_size": "55 inches",
+      "resolution": "3840x2160 (4K)",
+      "display_type": "QLED",
+      "smart_features": "Tizen OS, Voice Control",
+      "refresh_rate": "120Hz"
+    },
+    "reviews": [
+      {
+        "user_id": "U008",
+        "username": "MovieBuff",
+        "rating": 5,
+        "comment": "Picture quality is stunning! Great for movies.",
+        "date": "2024-01-30"
+      },
+      {
+        "user_id": "U019",
+        "username": "GamingConsole",
+        "rating": 4,
+        "comment": "Good for PS5 gaming with 120Hz support.",
+        "date": "2024-02-28"
+      }
+    ],
+    "tags": ["TV", "QLED", "4K", "smart-tv", "120Hz"],
+    "warranty_months": 24,
+    "created_at": "2023-12-15T09:30:00Z",
+    "updated_at": "2024-03-20T10:00:00Z"
+  },
+  {
+    "product_id": "FASH001",
+    "name": "Levi's 511 Slim Fit Jeans",
+    "category": "Fashion",
+    "subcategory": "Clothing",
+    "price": 3499.00,
+    "stock": 120,
+    "specifications": {
+      "brand": "Levi's",
+      "material": "98% Cotton, 2% Elastane",
+      "fit": "Slim",
+      "color": "Dark Blue",
+      "sizes_available": ["28", "30", "32", "34", "36", "38"],
+      "care": "Machine wash cold"
+    },
+    "reviews": [
+      {
+        "user_id": "U002",
+        "username": "FashionGuy",
+        "rating": 5,
+        "comment": "Perfect fit and very comfortable!",
+        "date": "2024-01-18"
+      },
+      {
+        "user_id": "U016",
+        "username": "CasualWear",
+        "rating": 4,
+        "comment": "Good quality jeans, slight fade after few washes.",
+        "date": "2024-02-22"
+      },
+      {
+        "user_id": "U027",
+        "username": "DenimLover",
+        "rating": 5,
+        "comment": "Best jeans I've owned. Worth every penny!",
+        "date": "2024-03-15"
+      }
+    ],
+    "tags": ["jeans", "denim", "casual", "mens-fashion"],
+    "warranty_months": 3,
+    "created_at": "2023-10-01T08:00:00Z",
+    "updated_at": "2024-03-18T14:20:00Z"
+  },
+  {
+    "product_id": "FASH002",
+    "name": "Nike Air Max 270 Sneakers",
+    "category": "Fashion",
+    "subcategory": "Footwear",
+    "price": 12995.00,
+    "stock": 85,
+    "specifications": {
+      "brand": "Nike",
+      "type": "Running Shoes",
+      "material": "Mesh and Synthetic",
+      "color": "Black/White",
+      "sizes_available": ["7", "8", "9", "10", "11", "12"],
+      "sole": "Air Max cushioning"
+    },
+    "reviews": [
+      {
+        "user_id": "U004",
+        "username": "RunnerLife",
+        "rating": 5,
+        "comment": "Super comfortable for running and daily wear!",
+        "date": "2024-01-22"
+      },
+      {
+        "user_id": "U015",
+        "username": "SneakerHead",
+        "rating": 4,
+        "comment": "Great style and comfort, a bit pricey though.",
+        "date": "2024-02-18"
+      }
+    ],
+    "tags": ["shoes", "sneakers", "running", "athletic", "nike"],
+    "warranty_months": 6,
+    "created_at": "2023-11-20T10:00:00Z",
+    "updated_at": "2024-03-22T11:30:00Z"
+  },
+  {
+    "product_id": "FASH003",
+    "name": "Adidas Originals T-Shirt",
+    "category": "Fashion",
+    "subcategory": "Clothing",
+    "price": 1499.00,
+    "stock": 200,
+    "specifications": {
+      "brand": "Adidas",
+      "material": "100% Cotton",
+      "fit": "Regular",
+      "color": "White with Black Logo",
+      "sizes_available": ["S", "M", "L", "XL", "XXL"],
+      "sleeve": "Short sleeve"
+    },
+    "reviews": [
+      {
+        "user_id": "U006",
+        "username": "CasualStyle",
+        "rating": 4,
+        "comment": "Good quality t-shirt, comfortable fabric.",
+        "date": "2024-02-05"
+      },
+      {
+        "user_id": "U020",
+        "username": "BasicWardrobe",
+        "rating": 5,
+        "comment": "Perfect for everyday wear. Classic design.",
+        "date": "2024-03-08"
+      },
+      {
+        "user_id": "U030",
+        "username": "GymRat",
+        "rating": 4,
+        "comment": "Good for workouts, breathable material.",
+        "date": "2024-03-20"
+      }
+    ],
+    "tags": ["t-shirt", "casual", "cotton", "sportswear"],
+    "warranty_months": 3,
+    "created_at": "2023-12-10T09:00:00Z",
+    "updated_at": "2024-03-23T15:10:00Z"
+  },
+  {
+    "product_id": "FASH004",
+    "name": "Puma RS-X Sneakers",
+    "category": "Fashion",
+    "subcategory": "Footwear",
+    "price": 8999.00,
+    "stock": 95,
+    "specifications": {
+      "brand": "Puma",
+      "type": "Casual Sneakers",
+      "material": "Leather and Mesh",
+      "color": "Multi-color",
+      "sizes_available": ["7", "8", "9", "10", "11"],
+      "sole": "Rubber with RS cushioning"
+    },
+    "reviews": [
+      {
+        "user_id": "U009",
+        "username": "StreetStyle",
+        "rating": 4,
+        "comment": "Stylish and comfortable, great for casual outings.",
+        "date": "2024-02-12"
+      },
+      {
+        "user_id": "U024",
+        "username": "UrbanFashion",
+        "rating": 5,
+        "comment": "Love the retro design! Gets lots of compliments.",
+        "date": "2024-03-16"
+      }
+    ],
+    "tags": ["sneakers", "casual", "retro", "streetwear"],
+    "warranty_months": 6,
+    "created_at": "2024-01-08T11:30:00Z",
+    "updated_at": "2024-03-24T12:45:00Z"
+  },
+  {
+    "product_id": "FASH005",
+    "name": "H&M Slim Fit Formal Shirt",
+    "category": "Fashion",
+    "subcategory": "Clothing",
+    "price": 1999.00,
+    "stock": 150,
+    "specifications": {
+      "brand": "H&M",
+      "material": "Cotton blend",
+      "fit": "Slim",
+      "color": "Light Blue",
+      "sizes_available": ["38", "40", "42", "44", "46"],
+      "collar": "Spread collar",
+      "sleeve": "Full sleeve"
+    },
+    "reviews": [
+      {
+        "user_id": "U011",
+        "username": "OfficePro",
+        "rating": 4,
+        "comment": "Good quality for the price. Fits well.",
+        "date": "2024-02-08"
+      },
+      {
+        "user_id": "U022",
+        "username": "CorporateStyle",
+        "rating": 3,
+        "comment": "Decent shirt but wrinkles easily.",
+        "date": "2024-03-05"
+      }
+    ],
+    "tags": ["shirt", "formal", "office-wear", "slim-fit"],
+    "warranty_months": 3,
+    "created_at": "2023-11-25T10:00:00Z",
+    "updated_at": "2024-03-19T13:20:00Z"
+  },
+  {
+    "product_id": "FASH006",
+    "name": "Reebok Training Trackpants",
+    "category": "Fashion",
+    "subcategory": "Clothing",
+    "price": 2299.00,
+    "stock": 130,
+    "specifications": {
+      "brand": "Reebok",
+      "material": "Polyester",
+      "fit": "Regular",
+      "color": "Black with White Stripes",
+      "sizes_available": ["S", "M", "L", "XL", "XXL"],
+      "features": "Elastic waistband, zippered pockets"
+    },
+    "reviews": [
+      {
+        "user_id": "U013",
+        "username": "FitnessFreak",
+        "rating": 5,
+        "comment": "Perfect for gym and jogging. Very comfortable!",
+        "date": "2024-02-15"
+      },
+      {
+        "user_id": "U026",
+        "username": "ActiveLifestyle",
+        "rating": 4,
+        "comment": "Good quality, lightweight and breathable.",
+        "date": "2024-03-18"
+      }
+    ],
+    "tags": ["trackpants", "sportswear", "gym", "athleisure"],
+    "warranty_months": 3,
+    "created_at": "2023-12-05T09:30:00Z",
+    "updated_at": "2024-03-21T14:50:00Z"
+  }
+]
