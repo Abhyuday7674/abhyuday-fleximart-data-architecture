@@ -121,7 +121,7 @@ This was resolved by implementing validation rules and generating a data quality
 This challenge was addressed by applying normalization for relational databases, document-based modeling for MongoDB, and star schema design for the data warehouse.
 
 
----
+----
 
 ## Conclusion
 
