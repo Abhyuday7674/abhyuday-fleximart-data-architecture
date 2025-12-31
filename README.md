@@ -1,7 +1,7 @@
 # FlexiMart Data Architecture Project
 
 **Student Name:** Abhyuday Mishra  
-**Student ID:** [Your Student ID]  
+**Student ID:** [bitsom_ba_2507632]  
 **Email:** [abhyudaymishra7674@gmail.com]  
 **Date:** 31 December 2025
 
