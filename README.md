@@ -17,34 +17,34 @@ The implementation is divided into three parts: relational ETL and data quality 
 
 ## Repository Structure
 abhyuday-fleximart-data-architecture/
-├── README.md
-├── .gitignore
-├── data/
-│ ├── customers_raw.csv
-│ ├── products_raw.csv
-│ └── sales_raw.csv
+├── README.md                 # Root documentation
+├── .gitignore                # Ignore unnecessary files
+│
+├── data/                     # Input data files
+│   ├── customers_raw.csv
+│   ├── products_raw.csv
+│   └── sales_raw.csv
 │
 ├── part1-database-etl/
-│ ├── README.md
-│ ├── etl_pipeline.py
-│ ├── schema_documentation.md
-│ ├── business_queries.sql
-│ ├── data_quality_report.txt
-│ └── requirements.txt
+│   ├── README.md             # Part 1 overview
+│   ├── etl_pipeline.py
+│   ├── schema_documentation.md
+│   ├── business_queries.sql
+│   ├── data_quality_report.txt
+│   └── requirements.txt
 │
 ├── part2-nosql/
-│ ├── README.md
-│ ├── nosql_analysis.md
-│ ├── mongodb_operations.js
-│ └── products_catalog.json
+│   ├── README.md             # Part 2 overview
+│   ├── nosql_analysis.md
+│   ├── mongodb_operations.js
+│   └── products_catalog.json
 │
 └── part3-datawarehouse/
-├── README.md
-├── star_schema_design.md
-├── warehouse_schema.sql
-├── warehouse_data.sql
-└── analytics_queries.sql
-└── README.md
+    ├── README.md             # Part 3 overview
+    ├── star_schema_design.md
+    ├── warehouse_schema.sql
+    ├── warehouse_data.sql
+    └── analytics_queries.sql
 
 ---
 
