@@ -16,7 +16,7 @@ The implementation is divided into three parts: relational ETL and data quality 
 ---
 
 ```
-abhyuday-fleximart-data-architecture/
+abhyuday_bitsom_ba_2507632-fleximart-data-architecture/
 ├── README.md                 # Root documentation
 ├── .gitignore                # Ignore unnecessary files
 │
