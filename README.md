@@ -16,20 +16,34 @@ The implementation is divided into three parts: relational ETL and data quality 
 ---
 
 ## Repository Structure
+abhyuday-fleximart-data-architecture/
+├── README.md
+├── .gitignore
+├── data/
+│ ├── customers_raw.csv
+│ ├── products_raw.csv
+│ └── sales_raw.csv
+│
 ├── part1-database-etl/
-│   ├── etl_pipeline.py
-│   ├── schema_documentation.md
-│   ├── business_queries.sql
-│   └── data_quality_report.txt
+│ ├── README.md
+│ ├── etl_pipeline.py
+│ ├── schema_documentation.md
+│ ├── business_queries.sql
+│ ├── data_quality_report.txt
+│ └── requirements.txt
+│
 ├── part2-nosql/
-│   ├── nosql_analysis.md
-│   ├── mongodb_operations.js
-│   └── products_catalog.json
-├── part3-datawarehouse/
-│   ├── star_schema_design.md
-│   ├── warehouse_schema.sql
-│   ├── warehouse_data.sql
-│   └── analytics_queries.sql
+│ ├── README.md
+│ ├── nosql_analysis.md
+│ ├── mongodb_operations.js
+│ └── products_catalog.json
+│
+└── part3-datawarehouse/
+├── README.md
+├── star_schema_design.md
+├── warehouse_schema.sql
+├── warehouse_data.sql
+└── analytics_queries.sql
 └── README.md
 
 ---
@@ -46,14 +60,46 @@ The implementation is divided into three parts: relational ETL and data quality 
 
 ## Setup Instructions
 
-### Database Setup (MySQL)
+### Database Setup
 
 ```bash
-# Create operational and data warehouse databases
+# Create databases
 mysql -u root -p -e "CREATE DATABASE fleximart;"
 mysql -u root -p -e "CREATE DATABASE fleximart_dw;"
 
+# Run Part 1 - ETL Pipeline
+python part1-database-etl/etl_pipeline.py
+
+# Run Part 1 - Business Queries
+mysql -u root -p fleximart < part1-database-etl/business_queries.sql
+
+# Run Part 3 - Data Warehouse
+mysql -u root -p fleximart_dw < part3-datawarehouse/warehouse_schema.sql
+mysql -u root -p fleximart_dw < part3-datawarehouse/warehouse_data.sql
+mysql -u root -p fleximart_dw < part3-datawarehouse/analytics_queries.sql
+
 ---
+
+## MongoDB Setup
+mongosh < part2-nosql/mongodb_operations.js
+
+---
+
+## Key Learnings
+This project provided hands-on experience in designing and implementing ETL pipelines and enforcing data quality checks. It improved understanding of when to use relational databases, NoSQL databases, and data warehouses. The project also strengthened SQL skills for both operational and analytical workloads and demonstrated the importance of proper data modeling for business intelligence.
+
+---
+
+## Challenges Faced
+
+1. Data Quality and Inconsistent Records
+This was resolved by implementing validation rules and generating a data quality report during the ETL process.
+2. Designing Schemas for Multiple Data Models
+This challenge was addressed by applying normalization for relational databases, document-based modeling for MongoDB, and star schema design for the data warehouse.
+
+
+
+
 
 
 
