@@ -183,17 +183,7 @@ The queries answer:
 - python-dateutil
 - SQL
 
----
 
-## 📝 Evaluation Criteria Mapping
-
-| Criteria | Status |
-|-------|-------|
-| Extract Logic | ✅ Implemented |
-| Transform Logic | ✅ Handles all data issues |
-| Load Logic | ✅ MySQL insertion successful |
-| Code Quality | ✅ Clean and readable |
-| Documentation | ✅ Complete and examiner-friendly |
 
 ---
 
