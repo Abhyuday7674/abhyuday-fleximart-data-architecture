@@ -133,11 +133,10 @@ pip install -r requirements.txt
 ```
 
 ### 2️⃣ Configure MySQL
-Update database credentials in `etl_pipeline.py` if required:
 ```python
 host="localhost"
 user="root"
-password="PASSWORD"
+password="7674"
 database="fleximart"
 ```
 
